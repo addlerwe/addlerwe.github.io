@@ -10,10 +10,10 @@
 <section>
 <h2>검색</h2>
 <section>
-<h2>온라인게임이름:<%=request.getParameter("mealtime")%><br/></h2>
-<h2>장르:<%=request.getParameter("meal")%><br/></h2>
+<h2>온라인게임이름:<%=request.getParameter("gametime")%><br/></h2>
+<h2>장르:<%=request.getParameter("genre")%><br/></h2>
 <h2>제작회사:<%=request.getParameter("meal")%><br/></h2>
-<h2>구분:<%=request.getParameter("meal")%><br/></h2>
+<h2>구분:<%=request.getParameter("division")%><br/></h2>
 </section>
 </section>
 </body>
