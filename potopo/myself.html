@@ -1,0 +1,42 @@
+<!doctype html> <!-- rwd4.html --> 
+ <html><head><meta charset="utf-8"/> 
+<meta name="viewport"content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="https://addlerwe.github.io/week12-1/rwd4.css"/>
+<style>
+*{ box-sizing:border-box; padding:0; margin:0; }
+.row::after { content:""; clear:both; display: table; }
+[class*="col-"]{ float:left; padding:10px;}
+.header, .footer{background-color:lightgray; color:red; padding:10px;}
+.menu ul, .banner ul{list-style-type:none;}
+.menu li{background-color:gray; color:black; padding:10px; margin-bottom:10px; box-shadow:0.1px 3px gray; }
+.menu li:hover{background-color:red;}
+.banner li {border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0.1px 3px gray;}
+.banner li img{width:30%; vertical-align:middle;}
+/* for mobile*/
+[class*="col-"]{width:100%;}
+@media only screen and (min-width: 600px){ .col-m-3{width:25%;} .col-m-9{width:75%;} .col-m-12{width:100%;} }
+@media only screen and (min-width: 768px){.col-3{width:25%;} .col-6{width:50%;}}
+</style>
+<title>RWD실습</title></head>
+<ul><li><a href="https://addlerwe.github.io/potopo/mains.html"><font COLOR="red">
+<body><header class="header"><h2>포트폴리오</h2></header>
+<div class="row"></div>
+<div id="main">
+<nav class="col-3 col-m-3 menu">
+<ul><li><a href="https://addlerwe.github.io/week12-1/rwd4.html"><font COLOR="lightblue">자기소개</font></a></li><li><a href=""><font COLOR="lightblue">학력</font></a></li><li><a href="https://addlerwe.github.io/potopo/class.html"><font COLOR="lightblue">수업수강내역</font></a></li><li><a href=""><font COLOR="lightblue">인터넷프로그래밍Index</font></a></li><li><a href=""><font COLOR="lightblue">공모전</font></a></li><li><a href=""><font COLOR="lightblue">동아리</font></a></li>
+</ul></nav>
+<section class="col-6 col-m-9">
+<h3><포트폴리오메인화면></포트폴리오메인화면></h3>
+<picture>
+<source media="(min-width:768px)"srcset="https://addlerwe.github.io/potopo/%EC%98%88%EC%81%9C%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4_(6).jpg">
+<source media="(min-width:600px)"srcset="https://addlerwe.github.io/potopo/%EC%98%88%EC%81%9C%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4_(6).jpg">
+<img src="https://addlerwe.github.io/potopo/%EC%98%88%EC%81%9C%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4_(6).jpg" alt="lobster" style="width:auto;">
+</picture>
+</section>
+<aside class="col-3 col-m-12 banner">
+<ul><li><a href=https://www.google.com><img src="https://addlerwe.github.io/week04/googlePlus.png"alt="구글"/></a></li>
+<li><a href=https://www.facebook.com><img src="https://addlerwe.github.io/week04/facebookOne.png"alt="페이스북"/></a></li>
+<li><a href=https://www.twitter.com><img src="https://addlerwe.github.io/week04/twitterYou.png"alt="트위터"/></a></li></ul></aside>
+</div><div class="row"></div>
+<footer class="footer"><h4>주소:충청북도 청주시 XX동 xx번지. Tell=010-XXXX-45XX</h4></footer>
+</body></html> 
