@@ -1,0 +1,38 @@
+<!doctype html> <!--basicList.hmtl-->
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width,initial-scale=1"/>
+<style>
+nav
+{border:1px solid pray; margin:5px;padding:8px; width:1000px;}
+nav ul{margin:0; padding:0;}
+nav ul li{display:inline; margin:5px;}
+</style>
+<title>리스트예제</title></head>
+<body>
+<h1 id="aList"><ul><li><a href="https://addlerwe.github.io/potopo/mains.html">컴퓨터공학과 이동규</h1>
+<hr/>
+<nav>
+<ul>
+<li><a href="#chapter1">1주차</a></li>
+<li><a href="#chapter2">2주차</a></li>
+<li><a href="#chapter3">3주차</a></li>
+<li><a href="#chapter4">4주차</a></li>
+<li><a href="#chapter5">5주차</a></li>
+<li><a href="#chapter6">6주차</a></li>
+<li><a href="#chapter7">7주차</a></li>
+<li><a href="#chapter8">8주차</a></li>
+<li><a href="#chapter9">9주차</a></li>
+<li><a href="#chapter10">10주차</a></li>
+<li><a href="#chapter11">11주차</a></li>
+<li><a href="#chapter12">12주차</a></li>
+<li><a href="#chapter13">13주차</a></li>
+<li><a href="#chapter14">14주차</a></li>
+</ul>
+</nav>
+<hr/>
+<ul style="list-style-type:circle">
+<section><h3 id="chapter1">1주차(2020.09.01~2020.09.05)</h3>
+<ol>
+</ol>
